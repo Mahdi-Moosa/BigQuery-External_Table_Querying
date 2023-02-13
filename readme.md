@@ -11,3 +11,7 @@ The repo provides extraction load pipeline to read NY Taxi CSV data (source: htt
 
 # Link to relevant blog:
 * Comparing Different Approaches to Querying External Data in BigQuery: [link](https://mahdimoosa.substack.com/p/comparing-different-approaches-to)
+
+## Schematic outline of the prefect orchestration:
+
+![My Image](images/BigQuery_External_Table.jpg)
