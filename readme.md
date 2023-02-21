@@ -1,6 +1,14 @@
 # Objective
 
-EL pipeline to compare different approaches to querying external data in BigQuery.
+EL pipeline to compare different approaches to querying external data in BigQuery. Compares between:
+* Importing data as non-partitioned BigQuery table
+* Importing data as partitioned BigQuery table
+* Query data as external table (csv.gz file)
+* Query data as external parquet file. Here, three different parquet compression formats were compared.
+    * snappy compression
+    * gzip comporession
+    * brotli compression
+* Query data as external ORC file. 
 
 # Codes
 
