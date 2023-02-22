@@ -10,6 +10,8 @@ EL pipeline to compare different approaches to querying external data in BigQuer
     * brotli compression
 * Query data as external ORC file. 
 
+Results of the comparson is discussed here: [link](https://mahdimoosa.substack.com/p/comparing-different-approaches-to).
+
 # Codes
 
 The repo provides extraction load pipeline to read NY Taxi CSV data (source: https://github.com/DataTalksClub/nyc-tlc-data/releases/tag/fhv) and load to GCS bucket. Two python scripts are:
